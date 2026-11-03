@@ -7,8 +7,8 @@ from pynput.keyboard import Listener, KeyCode
 
 # ==================== KONFIGURASI ====================
 # Kecepatan Super Cepat
-INTERVAL = 0.01      # Jeda antar klik dalam detik (0.01 = ~50-80 klik per detik)
-HOLD_TIME = 0.005    # Durasi penahanan klik (5 milidetik agar input terbaca oleh Roblox)
+INTERVAL = 0.001      # Jeda antar klik dalam detik (0.01 = ~50-80 klik per detik)
+HOLD_TIME = 0.001    # Durasi penahanan klik (5 milidetik agar input terbaca oleh Roblox)
 BUTTON = Button.left
 
 START_STOP_KEY = KeyCode(char='s')  # 's' untuk Mulai / Jeda
